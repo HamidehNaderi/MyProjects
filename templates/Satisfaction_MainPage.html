@@ -1,0 +1,1429 @@
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+
+        .form-control {
+            border-radius: .1rem;
+            outline: initial !important;
+            box-shadow: none !important;
+            font-size: .8rem;
+            padding: .75rem;
+            line-height: 1;
+            border: 1px solid #d7d7d7;
+            font-family: Helvetica Neue !important;
+            border-top-color: rgb(215, 215, 215);
+            border-right-color: rgb(215, 215, 215);
+            border-bottom-color: rgb(215, 215, 215);
+            border-left-color: rgb(215, 215, 215);
+            background: #fff;
+            color: #3a3a3a;
+            border-color: #d7d7d7;
+            width: 300px;
+        }
+
+        .btn-primary {
+            height: 38.8px !important;
+            font-family: Helvetica Neue !important;
+            border-radius: 10px;
+            font-weight: bold;
+            outline: initial !important;
+            box-shadow: none !important;
+            font-size: .8rem;
+            padding: .75rem 1.3rem .6rem;
+        }
+
+            .btn-primary:hover {
+                color: #fff;
+                background-color: #0f3d64;
+                border-color: #0f3d64;
+            }
+
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.428571429;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            background-color: #0088cc;
+            border: 1px solid transparent;
+            border-top-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        .fieldset {
+            border: 1px solid #ddd !important;
+            margin: 0;
+            margin-bottom: 0px;
+            margin-bottom: 20px;
+            xmin-width: 0;
+            padding: 10px;
+            padding-left: 10px;
+            position: relative;
+            border-radius: 4px;
+            padding-left: 10px !important;
+            box-sizing: border-box;
+            font-family: Helvetica Neue;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 400;
+            color: #3a3a3a;
+        }
+
+        .legend {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 0px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px 5px 5px 10px;
+            background-color: #f5f5f5;
+            display: block;
+            max-width: 100%;
+            padding: 5px;
+            line-height: inherit;
+            color: inherit;
+            white-space: normal;
+        }
+    </style>
+    <fieldset class='fieldset' style="background-color: #0088cc; color: white; text-align: center; vertical-align: middle">
+        <h2 style="font-family:Helvetica Neue">Job Satisfaction<br>
+            <small></small></h2>
+    </fieldset>
+
+     
+    <form action="/display" method="post" id="Satisfaction"
+    
+    <!-- Field type: "image" id: "1583745581" -->
+    
+
+
+    <!-- Field type: "paragraph" id: "1969422719" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1969422719">1- How is your feeling about your current job?
+            چه احساسی نسبت به شغلی که در حال حاضر به آن مشغولید دارید(ترجیجا به زبان انگلیسی)</legend>
+        <div class="form-group">
+            <textarea id="969050382" name="1- How is your feeling about your current job?
+            چه احساسی نسبت به شغلی که در حال حاضر به آن مشغولید دارید(ترجیجا به زبان انگلیسی)" style="width: 98%" class="form-control" required></textarea>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "dropdown" id: "744524079" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="744524079">What is your education degree?
+            میزان تحصیلات خود را بنویسید؟</legend>
+        <div class="form-group">
+            <select id="744524079" name="What is your education degree?
+            میزان تحصیلات خود را بنویسید؟" class="form-control">
+                <option value=""></option>
+                <option value="Associate’s or less(فوق دیپلم و کمتر)">Associate’s or less(فوق دیپلم و کمتر)</option>
+                <option value="Bachelor(لیسانس)">Bachelor(لیسانس)</option>
+                <option value="Master(فوق لیسانس)">Master(فوق لیسانس)</option>
+                <option value="PHD">PHD</option>
+            </select>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1028158338" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1028158338">How many years of work experience in do you have?
+            سابقه کاری شما چندسال است</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="How many years of work experience in do you have?
+                    سابقه کاری شما چندسال است" value="Less than3">
+                    Less than3
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="How many years of work experience in do you have?
+                    سابقه کاری شما چندسال است" value="3-6">
+                    3-6
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="How many years of work experience in do you have?
+                    سابقه کاری شما چندسال است" value="6-10">
+                    6-10
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="How many years of work experience in do you have?
+                    سابقه کاری شما چندسال است" value="More than 10">
+                    More than 10
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "dropdown" id: "745319633" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="745319633">What is your salary rate?
+            میزان حقوق دریافتی شما به کدام گزینه نزدیکتر است؟</legend>
+        <div class="form-group">
+            <select id="745319633" name="What is your salary rate?
+            میزان حقوق دریافتی شما به کدام گزینه نزدیکتر است؟" class="form-control">
+                <option value=""></option>
+                <option value="Less than 2000$">Less than 2000$</option>
+                <option value="2000-4000$">2000-4000$</option>
+                <option value="4000-7000$">4000-7000$</option>
+                <option value="More than 7000$">More than 7000$</option>
+            </select>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "839033161" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="839033161">Is your organization structure close to which group?
+            ?ساختار سازمان شما به کدام یک از این دو دسته تعلق دارد.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Is your organization structure close to which group?
+                    ?ساختار سازمان شما به کدام یک از این دو دسته تعلق دارد." value="Flexible work hours, 360 Degree evaluation, salary based on performance, promotion based on skills, Friendly work environment, Non-cash bonus                                                                                    (ساعات کاری انعطاف پذیر، ارزیابی 360 درجه، حقوق بر اساس عملکرد، ارتقاء بر اساس مهارت، محیط کار دوستانه، پاداش غیر نقدی)">
+                    Flexible work hours, 360 Degree evaluation, salary based on performance, promotion based on skills, Friendly work environment, Non-cash bonus                                                                                    (ساعات کاری انعطاف پذیر، ارزیابی 360 درجه، حقوق بر اساس عملکرد، ارتقاء بر اساس مهارت، محیط کار دوستانه، پاداش غیر نقدی)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Is your organization structure close to which group?
+                    ?ساختار سازمان شما به کدام یک از این دو دسته تعلق دارد." value="Opposite of the first option (مخالف گزینه یک)">
+                    Opposite of the first option (مخالف گزینه یک)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+
+
+    <!-- Field type: "choices" id: "383767391" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="383767391">At a party do you:
+            شما در یک مهمانی</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At a party do you:
+                    شما در یک مهمانی" value="Interact with many, including strangers  ( با افراد زیادی از جمله غریبه ها تعامل دارید)">
+                    Interact with many, including strangers  ( با افراد زیادی از جمله غریبه ها تعامل دارید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At a party do you:
+                    شما در یک مهمانی" value="Interact with a few, known to you ( با افرادی که می شناسید تعامل دارید)">
+                    Interact with a few, known to you ( با افرادی که می شناسید تعامل دارید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1231559810" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1231559810">Are you more:
+            (آیا شما بیشتر&quot;)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more:
+                    (آیا شما بیشتر&quot;)" value="Realistic than speculative (واقع بین هستید)">
+                    Realistic than speculative (واقع بین هستید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more:
+                    (آیا شما بیشتر&quot;)" value="Speculative than realistic(باحدس و گمان پیش می روید)">
+                    Speculative than realistic(باحدس و گمان پیش می روید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "2118491652" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="2118491652">Are you more impressed by:
+            (بیشتر تحت تاثیر کدام قرار میگیرید)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more impressed by:
+                    (بیشتر تحت تاثیر کدام قرار میگیرید)" value="Principles(اصول)">
+                    Principles(اصول)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more impressed by:
+                    (بیشتر تحت تاثیر کدام قرار میگیرید)" value="Emotions(احساسات)">
+                    Emotions(احساسات)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "505134688" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="505134688">Do you prefer to work:
+            (ترجیح میدهید برای یک کار:)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Do you prefer to work:
+                    (ترجیح میدهید برای یک کار:)" value="To deadlines  (زمان اتمام کار مشخص باشد)">
+                    To deadlines  (زمان اتمام کار مشخص باشد)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Do you prefer to work:
+                    (ترجیح میدهید برای یک کار:)" value="Just “whenever”(هر زمان که به اتمام رسید)">
+                    Just “whenever”(هر زمان که به اتمام رسید)
+                </label>
+            </div>
+           
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1131259241" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1131259241">Do you tend to choose:
+            (هنگام انتخاب به کدام یک تمایل بیشتری دارید)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Do you tend to choose:
+                    (هنگام انتخاب به کدام یک تمایل بیشتری دارید)" value="Rather carefully(انتخاب با دقت)">
+                    Rather carefully(انتخاب با دقت)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Do you tend to choose:
+                    (هنگام انتخاب به کدام یک تمایل بیشتری دارید)" value="Somewhat impulsively(انتخاب بصورت حدودی)">
+                    Somewhat impulsively(انتخاب بصورت حدودی)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "629223787" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="629223787">Are you more attracted to
+            (بیشتر جذب کدام دسته می شوید؟)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more attracted to
+                    (بیشتر جذب کدام دسته می شوید؟)" value="Sensible people(افراد عاقل)">
+                    Sensible people(افراد عاقل)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more attracted to
+                    (بیشتر جذب کدام دسته می شوید؟)" value="Imaginative people(افراد تخیلی)">
+                    Imaginative people(افراد تخیلی)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "742533972" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="742533972">Are you more interested in:
+            (به کدام یک بیشتر علاقه دارید)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more interested in:
+                    (به کدام یک بیشتر علاقه دارید)" value="What is actual (آنچه واقعی است)">
+                    What is actual (آنچه واقعی است)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more interested in:
+                    (به کدام یک بیشتر علاقه دارید)" value="What is possible(آنچه امکان دارد)">
+                    What is possible(آنچه امکان دارد)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+
+
+    <!-- Field type: "choices" id: "653724851" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="653724851">In judging others are you more swayed
+            ( درقضاوت افراد بیشتر تحت تاثیر چه چیزی قرار میگیرید؟)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In judging others are you more swayed
+                    ( درقضاوت افراد بیشتر تحت تاثیر چه چیزی قرار میگیرید؟)" value="Laws than circumstances(قوانین)">
+                    Laws than circumstances(قوانین)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In judging others are you more swayed
+                    ( درقضاوت افراد بیشتر تحت تاثیر چه چیزی قرار میگیرید؟)" value="Circumstances than laws(شرایط)">
+                    Circumstances than laws(شرایط)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1566409351" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1566409351">1Are you more:
+            (آیا بیشتر)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="1Are you more:
+                    (آیا بیشتر)" value="Punctual(وقت شناس هستید)">
+                    Punctual(وقت شناس هستید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="1Are you more:
+                    (آیا بیشتر)" value="Leisurely(با فراغت خاطر عمل میکنید)">
+                    Leisurely(با فراغت خاطر عمل میکنید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1960101829" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1960101829">Does it bother you more having things:
+            (داشتن چیزهایی بیشتر شما را اذیت میکند که:)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Does it bother you more having things:
+                    (داشتن چیزهایی بیشتر شما را اذیت میکند که:)" value="Incomplete( ناقص باشد)">
+                    Incomplete( ناقص باشد)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Does it bother you more having things:
+                    (داشتن چیزهایی بیشتر شما را اذیت میکند که:)" value="Completed(کامل باشد)">
+                    Completed(کامل باشد)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "120469758" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="120469758">In your social groups do you
+            (در گروههای اجتماعی که در آن هستید)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In your social groups do you
+                    (در گروههای اجتماعی که در آن هستید)" value="Keep abreast of other’s happenings(در جریان اتفاقات دیگران هستید)">
+                    Keep abreast of other’s happenings(در جریان اتفاقات دیگران هستید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In your social groups do you
+                    (در گروههای اجتماعی که در آن هستید)" value="Get behind on the news(از اخبار عقب می مانید)">
+                    Get behind on the news(از اخبار عقب می مانید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1307096993" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1307096993">In doing ordinary things are you more
+            (درانجام کارهای معمولی)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In doing ordinary things are you more
+                    (درانجام کارهای معمولی)" value="Do it the usual way(این کار را به روش معمول انجام می دهید)">
+                    Do it the usual way(این کار را به روش معمول انجام می دهید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In doing ordinary things are you more
+                    (درانجام کارهای معمولی)" value="b. Do it your own way(به روش خودت انجامش میدهید)">
+                    b. Do it your own way(به روش خودت انجامش میدهید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "833601833" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="833601833">Which appeals to you more:
+            (کدام کلمه برای شما جالب تر است)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which appeals to you more:
+                    (کدام کلمه برای شما جالب تر است)" value="Consistency of thought(ثبات ذهنی)">
+                    Consistency of thought(ثبات ذهنی)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which appeals to you more:
+                    (کدام کلمه برای شما جالب تر است)" value="Harmonious human relationships(روابط بین انسانی هماهنگ)">
+                    Harmonious human relationships(روابط بین انسانی هماهنگ)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1431358056" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1431358056">Are you more comfortable in making:
+            کدام گزینه برای شما ارزش بیشتری دارد</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more comfortable in making:
+                    کدام گزینه برای شما ارزش بیشتری دارد" value="Logical judgments (قضاوت های منطقی)">
+                    Logical judgments (قضاوت های منطقی)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more comfortable in making:
+                    کدام گزینه برای شما ارزش بیشتری دارد" value="Value judgments(قضاوت های ارزشی)">
+                    Value judgments(قضاوت های ارزشی)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+
+
+    <!-- Field type: "choices" id: "763063068" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="763063068">Would you say you are more:
+            (آیا شما بشتر)</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Would you say you are more:
+                    (آیا شما بشتر)" value="Serious and determined(جدی و مصمم هستید)">
+                    Serious and determined(جدی و مصمم هستید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Would you say you are more:
+                    (آیا شما بشتر)" value="Easy-going(مسایل راساده میگیرید)">
+                    Easy-going(مسایل راساده میگیرید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1573588383" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1573588383">Are visionaries:
+            رویا گرایی برای شما</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are visionaries:
+                    رویا گرایی برای شما" value="somewhat annoying (آزاردهنده است)">
+                    somewhat annoying (آزاردهنده است)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are visionaries:
+                    رویا گرایی برای شما" value="b. rather fascinating(نسبتا جذاب است)">
+                    b. rather fascinating(نسبتا جذاب است)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "2031473759" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="2031473759">Which is more admirable:
+            کدام برای شما تحسین برانگیز است</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which is more admirable:
+                    کدام برای شما تحسین برانگیز است" value="the ability to organize and be methodical(توانایی سازمان دهی دادن و روشمند بود)">
+                    the ability to organize and be methodical(توانایی سازمان دهی دادن و روشمند بود)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which is more admirable:
+                    کدام برای شما تحسین برانگیز است" value="the ability to adapt and make do(توانایی سازگاری و انجام دادن)">
+                    the ability to adapt and make do(توانایی سازگاری و انجام دادن)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1676658651" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1676658651">Are you more likely to:
+            کدام گزینه احتمال بیشتری دارد</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more likely to:
+                    کدام گزینه احتمال بیشتری دارد" value="see how others are useful (دیگران چقدر مفید هستند)">
+                    see how others are useful (دیگران چقدر مفید هستند)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more likely to:
+                    کدام گزینه احتمال بیشتری دارد" value="see how others see(دیگران چگونه می بینند)">
+                    see how others see(دیگران چگونه می بینند)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1054433635" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1054433635">Which is more satisfying:
+            کدام رضایت بخش تر است</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which is more satisfying:
+                    کدام رضایت بخش تر است" value="to discuss an issue thoroughly(بحث در مورد یک موضوع به طور کامل)">
+                    to discuss an issue thoroughly(بحث در مورد یک موضوع به طور کامل)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which is more satisfying:
+                    کدام رضایت بخش تر است" value="to arrive at agreement on an issue(رسیدن به توافق در مورد موضوع)">
+                    to arrive at agreement on an issue(رسیدن به توافق در مورد موضوع)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "244659163" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="244659163">Are you more comfortable with work that:
+            بیشتر تمایل دارید  که</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more comfortable with work that:
+                    بیشتر تمایل دارید  که" value="contracted(بصورت قراردادی )">
+                    contracted(بصورت قراردادی )
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more comfortable with work that:
+                    بیشتر تمایل دارید  که" value="done on a casual basis(بصورت توافقی)">
+                    done on a casual basis(بصورت توافقی)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1488530029" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1488530029">Do you go more by:
+            به کدام مورد بیشتر اهمیت میدهید؟</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Do you go more by:
+                    به کدام مورد بیشتر اهمیت میدهید؟" value="facts(واقعیات)">
+                    facts(واقعیات)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Do you go more by:
+                    به کدام مورد بیشتر اهمیت میدهید؟" value="principles(اصول)">
+                    principles(اصول)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1405445878" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1405445878">1Are you more interested in:
+            به کدام مورد بیشتر علاقه مند هستید:</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="1Are you more interested in:
+                    به کدام مورد بیشتر علاقه مند هستید:" value="production and distribution(تولید و توزیع)">
+                    production and distribution(تولید و توزیع)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="1Are you more interested in:
+                    به کدام مورد بیشتر علاقه مند هستید:" value="design and research(طراحی و تحقیق)">
+                    design and research(طراحی و تحقیق)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "228347784" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="228347784">Are you more comfortable:
+            در کدام مورد احساس بهتری دارید؟</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more comfortable:
+                    در کدام مورد احساس بهتری دارید؟" value="after a decision(بعداز اینکه در مورد چیزی تصمیم بگیرید)">
+                    after a decision(بعداز اینکه در مورد چیزی تصمیم بگیرید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you more comfortable:
+                    در کدام مورد احساس بهتری دارید؟" value="before a decision(قبل از این که در مورد چیزی تصمیم بگیرید)">
+                    before a decision(قبل از این که در مورد چیزی تصمیم بگیرید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "2106591943" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="2106591943">Do you feel:
+            آیا شما بیشتر:</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Do you feel:
+                    آیا شما بیشتر:" value="more practical than ingenious(عملگرا هستید)">
+                    more practical than ingenious(عملگرا هستید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Do you feel:
+                    آیا شما بیشتر:" value="more ingenious than practical(مبتکر هستید)">
+                    more ingenious than practical(مبتکر هستید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "157983075" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="157983075">Is it preferable mostly to:
+            آیا بیشتر ترجیح می دهید</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Is it preferable mostly to:
+                    آیا بیشتر ترجیح می دهید" value="make sure things are arranged(مطمئن شوید که همه چیز برنامه ریزی شده است)">
+                    make sure things are arranged(مطمئن شوید که همه چیز برنامه ریزی شده است)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Is it preferable mostly to:
+                    آیا بیشتر ترجیح می دهید" value="just let things happen(فقط اجازه دهید همه چیز اتفاق بیفتد)">
+                    just let things happen(فقط اجازه دهید همه چیز اتفاق بیفتد)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1829551263" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1829551263">Which situation appeals to you more:
+            کدام موقعیت برای شما جذاب تر است</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which situation appeals to you more:
+                    کدام موقعیت برای شما جذاب تر است" value="the structured and scheduled(ساختار یافته و برنامه ریزی شده)">
+                    the structured and scheduled(ساختار یافته و برنامه ریزی شده)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which situation appeals to you more:
+                    کدام موقعیت برای شما جذاب تر است" value="the unstructured and unscheduled(بدون ساختار و بدون برنامه ریزی)">
+                    the unstructured and unscheduled(بدون ساختار و بدون برنامه ریزی)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "2127136385" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="2127136385">Which is the greater fault:
+            کدام عیب بزرگتری است</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which is the greater fault:
+                    کدام عیب بزرگتری است" value="being indiscriminate(بی تفاوت بودن)">
+                    being indiscriminate(بی تفاوت بودن)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Which is the greater fault:
+                    کدام عیب بزرگتری است" value="being critical(انتقادی بودن)">
+                    being critical(انتقادی بودن)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1509721119" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1509721119">1Is it preferable mostly to:
+            آیا بیشتر ترجیح می دهید</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="1Is it preferable mostly to:
+                    آیا بیشتر ترجیح می دهید" value="Do the routine in morning(کارهای روتین را درابتدای روز انجام دهید)">
+                    Do the routine in morning(کارهای روتین را درابتدای روز انجام دهید)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="1Is it preferable mostly to:
+                    آیا بیشتر ترجیح می دهید" value="Any time along interesting activities(در بین سایر فعالیت های جذاب انجام دهید)">
+                    Any time along interesting activities(در بین سایر فعالیت های جذاب انجام دهید)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "395537465" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="395537465">Are you satisfied mostly:
+            با کدام احساس رضایت  بیشتری می کنید</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you satisfied mostly:
+                    با کدام احساس رضایت  بیشتری می کنید" value="do your tasks before deadline(انجام کارها پیش از زمان مقرر)">
+                    do your tasks before deadline(انجام کارها پیش از زمان مقرر)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Are you satisfied mostly:
+                    با کدام احساس رضایت  بیشتری می کنید" value="High performance all the time(کارآمدی بالا تا لحظات آخر انجام کارها)">
+                    High performance all the time(کارآمدی بالا تا لحظات آخر انجام کارها)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+
+
+    <!-- Field type: "choices" id: "2115274954" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="2115274954">I know what is expected of me at work.
+            می دانم در محل کار از من چه انتظاری می رود.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I know what is expected of me at work.
+                    می دانم در محل کار از من چه انتظاری می رود." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I know what is expected of me at work.
+                    می دانم در محل کار از من چه انتظاری می رود." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I know what is expected of me at work.
+                    می دانم در محل کار از من چه انتظاری می رود." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I know what is expected of me at work.
+                    می دانم در محل کار از من چه انتظاری می رود." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I know what is expected of me at work.
+                    می دانم در محل کار از من چه انتظاری می رود." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "2103063059" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="2103063059">I have the materials and equipment I need to do my work right.
+            مواد و تجهیزات لازم برای انجام درست کارم را دارم.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have the materials and equipment I need to do my work right.
+                    مواد و تجهیزات لازم برای انجام درست کارم را دارم." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have the materials and equipment I need to do my work right.
+                    مواد و تجهیزات لازم برای انجام درست کارم را دارم." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have the materials and equipment I need to do my work right.
+                    مواد و تجهیزات لازم برای انجام درست کارم را دارم." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have the materials and equipment I need to do my work right.
+                    مواد و تجهیزات لازم برای انجام درست کارم را دارم." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have the materials and equipment I need to do my work right.
+                    مواد و تجهیزات لازم برای انجام درست کارم را دارم." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1711348525" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1711348525">At work, I have the opportunity to do what I do best every day.
+            در محل کار، من این فرصت را دارم که هر روز بهترین کار را انجام دهم.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, I have the opportunity to do what I do best every day.
+                    در محل کار، من این فرصت را دارم که هر روز بهترین کار را انجام دهم." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, I have the opportunity to do what I do best every day.
+                    در محل کار، من این فرصت را دارم که هر روز بهترین کار را انجام دهم." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, I have the opportunity to do what I do best every day.
+                    در محل کار، من این فرصت را دارم که هر روز بهترین کار را انجام دهم." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, I have the opportunity to do what I do best every day.
+                    در محل کار، من این فرصت را دارم که هر روز بهترین کار را انجام دهم." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, I have the opportunity to do what I do best every day.
+                    در محل کار، من این فرصت را دارم که هر روز بهترین کار را انجام دهم." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "473604262" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="473604262">In the last seven days, I have received recognition or praise for doing good work.
+            در هفت روز گذشته، به خاطر انجام کار خوب مورد تقدیر و تمجید قرار گرفتم.
+        </legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last seven days, I have received recognition or praise for doing good work.
+                    در هفت روز گذشته، به خاطر انجام کار خوب مورد تقدیر و تمجید قرار گرفتم." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last seven days, I have received recognition or praise for doing good work.
+                    در هفت روز گذشته، به خاطر انجام کار خوب مورد تقدیر و تمجید قرار گرفتم." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last seven days, I have received recognition or praise for doing good work.
+                    در هفت روز گذشته، به خاطر انجام کار خوب مورد تقدیر و تمجید قرار گرفتم." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last seven days, I have received recognition or praise for doing good work.
+                    در هفت روز گذشته، به خاطر انجام کار خوب مورد تقدیر و تمجید قرار گرفتم." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last seven days, I have received recognition or praise for doing good work.
+                    در هفت روز گذشته، به خاطر انجام کار خوب مورد تقدیر و تمجید قرار گرفتم." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "974920072" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="974920072">My supervisor, or someone at work, seems to care about me as a person.
+            به نظر می رسد سرپرست من یا شخصی در محل کار به من به عنوان یک شخص اهمیت می دهد.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My supervisor, or someone at work, seems to care about me as a person.
+                    به نظر می رسد سرپرست من یا شخصی در محل کار به من به عنوان یک شخص اهمیت می دهد." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My supervisor, or someone at work, seems to care about me as a person.
+                    به نظر می رسد سرپرست من یا شخصی در محل کار به من به عنوان یک شخص اهمیت می دهد." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My supervisor, or someone at work, seems to care about me as a person.
+                    به نظر می رسد سرپرست من یا شخصی در محل کار به من به عنوان یک شخص اهمیت می دهد." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My supervisor, or someone at work, seems to care about me as a person.
+                    به نظر می رسد سرپرست من یا شخصی در محل کار به من به عنوان یک شخص اهمیت می دهد." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My supervisor, or someone at work, seems to care about me as a person.
+                    به نظر می رسد سرپرست من یا شخصی در محل کار به من به عنوان یک شخص اهمیت می دهد." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "270198691" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="270198691">There is someone at work who encourages my development.
+            کسی درمحل کار من است که پیشرفت من را تشویق می کند.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="There is someone at work who encourages my development.
+                    کسی درمحل کار من است که پیشرفت من را تشویق می کند." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="There is someone at work who encourages my development.
+                    کسی درمحل کار من است که پیشرفت من را تشویق می کند." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="There is someone at work who encourages my development.
+                    کسی درمحل کار من است که پیشرفت من را تشویق می کند." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="There is someone at work who encourages my development.
+                    کسی درمحل کار من است که پیشرفت من را تشویق می کند." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="There is someone at work who encourages my development.
+                    کسی درمحل کار من است که پیشرفت من را تشویق می کند." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "923257469" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="923257469">At work, my opinions seem to count.
+            در محل کار، به نظر می رسد نظرات من اهمیت دارد.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, my opinions seem to count.
+                    در محل کار، به نظر می رسد نظرات من اهمیت دارد." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, my opinions seem to count.
+                    در محل کار، به نظر می رسد نظرات من اهمیت دارد." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, my opinions seem to count.
+                    در محل کار، به نظر می رسد نظرات من اهمیت دارد." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, my opinions seem to count.
+                    در محل کار، به نظر می رسد نظرات من اهمیت دارد." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="At work, my opinions seem to count.
+                    در محل کار، به نظر می رسد نظرات من اهمیت دارد." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "2085666186" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="2085666186">The mission or purpose of my company makes me feel my job is important.
+            ماموریت یا هدف شرکت من باعث می شود احساس کنم شغلم مهم است.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="The mission or purpose of my company makes me feel my job is important.
+                    ماموریت یا هدف شرکت من باعث می شود احساس کنم شغلم مهم است." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="The mission or purpose of my company makes me feel my job is important.
+                    ماموریت یا هدف شرکت من باعث می شود احساس کنم شغلم مهم است." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="The mission or purpose of my company makes me feel my job is important.
+                    ماموریت یا هدف شرکت من باعث می شود احساس کنم شغلم مهم است." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="The mission or purpose of my company makes me feel my job is important.
+                    ماموریت یا هدف شرکت من باعث می شود احساس کنم شغلم مهم است." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="The mission or purpose of my company makes me feel my job is important.
+                    ماموریت یا هدف شرکت من باعث می شود احساس کنم شغلم مهم است." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1710801248" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1710801248">My associates or fellow employees are committed to doing quality work.
+            همکاران یا همکاران من متعهد به انجام کار با کیفیت هستند.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My associates or fellow employees are committed to doing quality work.
+                    همکاران یا همکاران من متعهد به انجام کار با کیفیت هستند." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My associates or fellow employees are committed to doing quality work.
+                    همکاران یا همکاران من متعهد به انجام کار با کیفیت هستند." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My associates or fellow employees are committed to doing quality work.
+                    همکاران یا همکاران من متعهد به انجام کار با کیفیت هستند." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My associates or fellow employees are committed to doing quality work.
+                    همکاران یا همکاران من متعهد به انجام کار با کیفیت هستند." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="My associates or fellow employees are committed to doing quality work.
+                    همکاران یا همکاران من متعهد به انجام کار با کیفیت هستند." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1099059499" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1099059499">I have a best friend at work.
+            من یک دوست صمیمی در محل کار دارم.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have a best friend at work.
+                    من یک دوست صمیمی در محل کار دارم." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have a best friend at work.
+                    من یک دوست صمیمی در محل کار دارم." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have a best friend at work.
+                    من یک دوست صمیمی در محل کار دارم." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have a best friend at work.
+                    من یک دوست صمیمی در محل کار دارم." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="I have a best friend at work.
+                    من یک دوست صمیمی در محل کار دارم." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1656894071" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1656894071">In the last six months, someone at work has talked to me about my progress.
+            در شش ماه گذشته، شخصی در محل کار با من در مورد پیشرفت من صحبت کرده است.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last six months, someone at work has talked to me about my progress.
+                    در شش ماه گذشته، شخصی در محل کار با من در مورد پیشرفت من صحبت کرده است." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last six months, someone at work has talked to me about my progress.
+                    در شش ماه گذشته، شخصی در محل کار با من در مورد پیشرفت من صحبت کرده است." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last six months, someone at work has talked to me about my progress.
+                    در شش ماه گذشته، شخصی در محل کار با من در مورد پیشرفت من صحبت کرده است." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last six months, someone at work has talked to me about my progress.
+                    در شش ماه گذشته، شخصی در محل کار با من در مورد پیشرفت من صحبت کرده است." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="In the last six months, someone at work has talked to me about my progress.
+                    در شش ماه گذشته، شخصی در محل کار با من در مورد پیشرفت من صحبت کرده است." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1802713992" -->
+    <fieldset class='fieldset'>
+        <legend class='legend' for="1802713992">This last year, I have had opportunities at work to learn and grow.
+            در سال گذشته، در محل کار فرصت هایی برای یادگیری و رشد داشتم.</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="This last year, I have had opportunities at work to learn and grow.
+                    در سال گذشته، در محل کار فرصت هایی برای یادگیری و رشد داشتم." value="Strongly agree (کاملا موافقم)">
+                    Strongly agree (کاملا موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="This last year, I have had opportunities at work to learn and grow.
+                    در سال گذشته، در محل کار فرصت هایی برای یادگیری و رشد داشتم." value="Agree(موافقم)">
+                    Agree(موافقم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="This last year, I have had opportunities at work to learn and grow.
+                    در سال گذشته، در محل کار فرصت هایی برای یادگیری و رشد داشتم." value="Neither disagree nor agree (نه موافق نه مخالفم)">
+                    Neither disagree nor agree (نه موافق نه مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="This last year, I have had opportunities at work to learn and grow.
+                    در سال گذشته، در محل کار فرصت هایی برای یادگیری و رشد داشتم." value="Disagree(مخالفم)">
+                    Disagree(مخالفم)
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="This last year, I have had opportunities at work to learn and grow.
+                    در سال گذشته، در محل کار فرصت هایی برای یادگیری و رشد داشتم." value="Strongly disagree (کاملا مخالفم)">
+                    Strongly disagree (کاملا مخالفم)
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+   
+    <input class="btn btn-primary" type="submit" name="submit" value="Submit">
+    
+    
+   
+</asp:Content>
